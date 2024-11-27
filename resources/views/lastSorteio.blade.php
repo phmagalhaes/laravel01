@@ -10,6 +10,8 @@
 </head>
 <body>
     <h1>Último sorteio</h1>
+    <a href="{{ route('logout') }}">Logout</a>
+
     <div>
         <p><strong>{{ $sorteio->titulo }}</strong> - {{ $sorteio->data_sorteio }}</p>
         <ul>

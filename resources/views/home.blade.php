@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>Todos os sorteios</h1>
+    <a href="{{ route('logout') }}">Logout</a>
     <a href="{{ route('sorteios.create') }}">Novo sorteio</a>
     @if(session('successMsg'))
             <p style="color: green">{{ session('successMsg') }}</p>
